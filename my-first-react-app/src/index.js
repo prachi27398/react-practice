@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import VariableDisplay from './Variabledisplay';
 import Jobboard from './Jobboard';
+import StyleButton from './StyleButton';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <App />
     <VariableDisplay/>
     <Jobboard></Jobboard>
+    <StyleButton></StyleButton>
   </React.StrictMode>
 );
 
