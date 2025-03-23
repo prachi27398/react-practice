@@ -6,14 +6,18 @@ import reportWebVitals from './reportWebVitals';
 import VariableDisplay from './Variabledisplay';
 import Jobboard from './Jobboard';
 import StyleButton from './StyleButton';
+import JobCounter from './JobCounter';
+import CreateJob from './component/CreateJob';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <VariableDisplay/>
+    {/* <VariableDisplay/>
     <Jobboard></Jobboard>
-    <StyleButton></StyleButton>
+    <StyleButton></StyleButton> */}
+   {/* <JobCounter></JobCounter> */}
+   {/* <CreateJob></CreateJob> */}
   </React.StrictMode>
 );
 
