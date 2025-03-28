@@ -1,10 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
-  text-align: center;
+  text-align: left;
+}
+
+.headerfunc{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 0px 0px 0px;
+  padding: 30px 8%;
+}
+
+.columns{
+width:33%;
+background-color: #b48989;
+margin: 40px;
+padding: 30px;
+text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.status-board{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+  text-align: center;
+  position:fixed;
+  bottom:0;
+  width :100%;
+  left: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {

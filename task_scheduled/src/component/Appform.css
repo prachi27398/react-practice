@@ -1,0 +1,76 @@
+.bot_in{
+    fornt-size:23px;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 10px 40px;
+    
+}
+
+.formheader{
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.formheader >form{
+    width: 40%;
+}
+
+.formdetails{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottomline{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tag{
+    font-size: 14px;
+    font-weight: 300;
+    background-color: cadetblue;
+    padding: 4px 20px;
+    margin-right: 10px;
+}
+
+.jobStatus{
+    font-size: 16px;
+    font-weight: 300;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 135px;
+    padding: 7px;
+    background-color: rgb(101, 160, 120);
+}
+
+.submitdata{
+    font-size: 16px;
+    font-weight: 500px;
+    background-color: brown;
+    color: #fff;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
