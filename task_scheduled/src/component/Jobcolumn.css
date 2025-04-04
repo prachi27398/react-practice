@@ -1,0 +1,10 @@
+.columnHeading{
+    display: flex;
+    text-align: center;
+}
+
+.columnImg{
+    width: 30px;
+    margin-left: 10px;
+    height: 30px;
+}

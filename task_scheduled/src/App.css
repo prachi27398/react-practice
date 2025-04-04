@@ -15,11 +15,9 @@
 }
 
 .columns{
-width:33%;
-background-color: #b48989;
-margin: 40px;
-padding: 30px;
-text-align: center;
+  width:33%;
+  /* background-color: #b48989; */
+  text-align: center;
 }
 
 .App-logo {
