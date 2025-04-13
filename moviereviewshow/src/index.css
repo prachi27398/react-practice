@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'Montserrant';
+  src: url('./assets/fonts/Montserrat-VariableFont_wght.woff') format('woff');
+}
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrant', sans-serif;
+  background: rgb(115,49,49);
+  color: white;
+}
+
+.center_ele{
+  display: flex;
+  align-items: center;
+}
+
