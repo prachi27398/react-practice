@@ -1,0 +1,67 @@
+.about-page {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem 1.5rem;
+    line-height: 1.7;
+    color: #333;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+  }
+  
+  .about-page h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #6200ea;
+  }
+  
+  .about-section {
+    margin-bottom: 2rem;
+  }
+  
+  .about-page p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .about-section h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    color: #6200ea;
+  }
+  
+  .skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 0.5rem;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .skills-list li {
+    background-color: #c3baba;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+  }
+  
+  .skills-list li:hover {
+    background: #e0e0e0;
+  }
+  
+  .dark-mode .about-page {
+    background: #1e1e1e;
+    color: #eee;
+  }
+  
+  .dark-mode .skills-list li {
+    background-color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .about-page {
+      text-align: center;
+    }
+  }

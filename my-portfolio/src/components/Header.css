@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #8673a1;
+    color: white;
+    padding: 0rem 1rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
