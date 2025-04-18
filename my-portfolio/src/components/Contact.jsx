@@ -21,15 +21,15 @@ const Contact = () => {
         }
 
         emailjs.send(
-          'service_38yt94b',       
-          'template_wu0vc9h',      
+          'service_id',       
+          'template_id',      
           {
             name: formData.name,
             email: formData.email,
             message: formData.message,
             date: new Date().toLocaleString(),
           },
-          'UjsUqjuUK-qbKwAMe'        
+          'public_key'        
         ).then(() => {
           setSubmitted(true);
           setFormData({ name: '', email: '', message: '' });
